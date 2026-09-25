@@ -31,9 +31,9 @@ TEMAS = {
 NOS = [
     (640, 214, "Base", "abaixo"),
     (760, 124, "Etapas", "acima"),
-    (880, 214, "Motor API", "abaixo"),
-    (1000, 124, "Tabela de Frete", "acima"),
-    (1120, 214, "Ponto Digital", "abaixo"),
+    (880, 214, "Automação Smart", "abaixo"),
+    (1000, 124, "Leitor Doc Gov", "acima"),
+    (1120, 214, "WhatsApp", "abaixo"),
 ]
 
 
@@ -71,7 +71,7 @@ def banner(t: dict) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="titulo desc">
   <title id="titulo">João Epaminondas</title>
-  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
+  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Automação Smart, Leitor Doc Gov e WhatsApp.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{t['bg1']}"/>

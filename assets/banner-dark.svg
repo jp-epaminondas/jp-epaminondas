@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="titulo desc">
   <title id="titulo">João Epaminondas</title>
-  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
+  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Automação Smart, Leitor Doc Gov e WhatsApp.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -51,15 +51,15 @@
     <circle cx="880" cy="214" r="9" class="pulso" style="animation-delay:1.2s"/>
     <circle cx="880" cy="214" r="8" fill="#0b1220" stroke="#22d3ee" stroke-width="3"/>
     <circle cx="880" cy="214" r="3" fill="#22d3ee"/>
-    <text x="880" y="248" class="no" text-anchor="middle">Motor API</text>
+    <text x="880" y="248" class="no" text-anchor="middle">Automação Smart</text>
     <circle cx="1000" cy="124" r="9" class="pulso" style="animation-delay:1.8s"/>
     <circle cx="1000" cy="124" r="8" fill="#0b1220" stroke="#22d3ee" stroke-width="3"/>
     <circle cx="1000" cy="124" r="3" fill="#22d3ee"/>
-    <text x="1000" y="102" class="no" text-anchor="middle">Tabela de Frete</text>
+    <text x="1000" y="102" class="no" text-anchor="middle">Leitor Doc Gov</text>
     <circle cx="1120" cy="214" r="9" class="pulso" style="animation-delay:2.4s"/>
     <circle cx="1120" cy="214" r="8" fill="#0b1220" stroke="#22d3ee" stroke-width="3"/>
     <circle cx="1120" cy="214" r="3" fill="#22d3ee"/>
-    <text x="1120" y="248" class="no" text-anchor="middle">Ponto Digital</text>
+    <text x="1120" y="248" class="no" text-anchor="middle">WhatsApp</text>
 
     <!-- caminhao -->
     <g>
