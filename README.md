@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg?v=ed49cbf">
-  <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a jornada de uma carga: oferta, aceite, documentos, CT-e e entrega." src="assets/banner-light.svg?v=ed49cbf" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.fc976107.svg">
+  <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a jornada de uma carga: oferta, aceite, documentos, CT-e e entrega." src="assets/banner-light.28bc6928.svg" width="100%">
 </picture>
 
 CTO da [Rota7 Solutions](https://www.rota7solutions.com.br). Lidero o time de tecnologia e continuo com a mão
@@ -49,6 +49,6 @@ ao financeiro.
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/linguagens-dark.svg?v=ed49cbf">
-  <img alt="Linguagens por volume de código em 34 repositórios: PHP 60,6%, JavaScript 22,4%, CSS 7,4%, Python 4,9%, outros 4,7%." src="assets/linguagens-light.svg?v=ed49cbf" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linguagens-dark.a9a0a173.svg">
+  <img alt="Linguagens por volume de código em 34 repositórios: PHP 60,6%, JavaScript 22,4%, CSS 7,4%, Python 4,9%, outros 4,7%." src="assets/linguagens-light.955bac1a.svg" width="100%">
 </picture>

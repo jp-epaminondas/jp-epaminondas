@@ -1,4 +1,6 @@
 """Gera os SVGs do perfil (banner e barra de linguagens) nos temas claro e escuro."""
+import hashlib
+import re
 from pathlib import Path
 
 AQUI = Path(__file__).parent / "assets"
@@ -194,7 +196,28 @@ def linguagens(t: dict) -> str:
 """
 
 
-for nome, t in TEMAS.items():
-    (AQUI / f"banner-{nome}.svg").write_text(banner(t), encoding="utf-8")
-    (AQUI / f"linguagens-{nome}.svg").write_text(linguagens(t), encoding="utf-8")
+# O GitHub redireciona a imagem do README para raw.githubusercontent.com, que o
+# navegador guarda por 5 min, e o redirect descarta query string: "?v=" nao
+# fura o cache. Por isso o nome do arquivo leva o hash do conteudo, e o README
+# e reescrito para apontar para o nome novo.
+LEIAME = Path(__file__).parent / "README.md"
+
+
+def gravar(prefixo: str, conteudo: str) -> str:
+    dados = conteudo.encode("utf-8")
+    nome = f"{prefixo}.{hashlib.sha256(dados).hexdigest()[:8]}.svg"
+    for antigo in AQUI.glob(f"{prefixo}*.svg"):
+        if antigo.name != nome:
+            antigo.unlink()
+    (AQUI / nome).write_bytes(dados)
+    return nome
+
+
+leiame = LEIAME.read_text(encoding="utf-8")
+for tema, t in TEMAS.items():
+    for prefixo, gerar in (("banner", banner), ("linguagens", linguagens)):
+        base = f"{prefixo}-{tema}"
+        nome = gravar(base, gerar(t))
+        leiame = re.sub(rf"assets/{base}[^\"]*\.svg(\?[^\"]*)?", f"assets/{nome}", leiame)
+LEIAME.write_text(leiame, encoding="utf-8")
 print("ok")
