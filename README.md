@@ -11,16 +11,16 @@ ao financeiro.
 
 | Sistema | O que faz |
 |---|---|
+| **Autenticador** | Login único para todas as apps: JWT, entrada por digital (WebAuthn) e instalação como PWA. |
 | **Automação Smart** | Robô que disputa cargas numa plataforma de fretes: acompanha as ofertas, aplica as regras de aceite e escolhe o equipamento de cada rodada. Painel com calendário, aderência e rastreio. |
-| **Leitor Doc Gov** | Lê o QR de CNH e CRLV a partir de foto ou PDF, valida a assinatura digital do governo e devolve os campos do documento em JSON. |
-| **WA-Responder** | Atendimento no WhatsApp com fluxos montados num editor visual: o bot conduz o menu e recebe os documentos do motorista. Node e Baileys. |
 | **Emissor Fiscal** | Emite CT-e, NF-e e MDF-e direto na SEFAZ, com certificado A1 por empresa, cancelamento, carta de correção e DACTE em PDF. |
 | **Etapas Logística** | A planilha operacional da empresa: multiusuário em tempo real, com motor de regras, fórmulas e histórico por célula. |
+| **Leitor Doc Gov** | Lê o QR de CNH e CRLV a partir de foto ou PDF, valida a assinatura digital do governo e devolve os campos do documento em JSON. |
 | **Motor API** | Cada fonte externa vira uma chamada: `Motor::dados("origem.consulta")`. Scraping, credencial em cofre e limite de uso por cadastro. |
-| **RotaTrucker** | API do app do motorista: cargas disponíveis, manifestação de interesse, envio de documentos e rastreamento. |
-| **Autenticador** | Login único para todas as apps: JWT, entrada por digital (WebAuthn) e instalação como PWA. |
-| **Tabela de Frete** | Cálculo de frete com ICMS por UF e conferência contra os XMLs de CT-e. |
 | **Ponto Digital** | Ponto eletrônico com GPS e IP, comprovante por marcação, feriados e exportação AFD (Portaria 671). |
+| **RotaTrucker** | API do app do motorista: cargas disponíveis, manifestação de interesse, envio de documentos e rastreamento. |
+| **Tabela de Frete** | Cálculo de frete com ICMS por UF e conferência contra os XMLs de CT-e. |
+| **WA-Responder** | Atendimento no WhatsApp com fluxos montados num editor visual: o bot conduz o menu e recebe os documentos do motorista. Node e Baileys. |
 
 <sub>Os repositórios da Rota7 são privados. Esta tabela é o resumo do que tem lá dentro.</sub>
 
