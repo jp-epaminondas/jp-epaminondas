@@ -3,9 +3,9 @@
   <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a rota entre os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital." src="assets/banner-light.svg" width="100%">
 </picture>
 
-Sou CTO da [Rota7 Solutions](https://www.rota7solutions.com.br), empresa de logística que roda em
-**23 aplicações próprias** sobre uma biblioteca PHP comum, um MySQL só e um servidor Debian. Cuido da
-arquitetura e ponho a mão no código: do schema do banco ao deploy, passando pelos bots de WhatsApp.
+CTO da [Rota7 Solutions](https://www.rota7solutions.com.br). Lidero o time de tecnologia e continuo com a mão
+no código: desenvolvemos em casa os **23 sistemas** que rodam a operação da empresa, do planejamento das viagens
+ao financeiro.
 
 ### 🛣️ Na Rota7
 
