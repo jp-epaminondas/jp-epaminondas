@@ -62,10 +62,10 @@ def banner(t: dict) -> str:
     chips_svg = []
     x = 56
     for texto in chips:
-        largura = 16 + len(texto) * 7.6
+        largura = 18 + len(texto) * 8.9
         chips_svg.append(
-            f'<rect x="{x}" y="236" width="{largura:.0f}" height="28" rx="14" fill="{t["chip"]}" stroke="{t["chipborda"]}"/>'
-            f'<text x="{x + largura / 2:.0f}" y="255" class="chip" text-anchor="middle">{texto}</text>'
+            f'<rect x="{x}" y="234" width="{largura:.0f}" height="32" rx="16" fill="{t["chip"]}" stroke="{t["chipborda"]}"/>'
+            f'<text x="{x + largura / 2:.0f}" y="255.5" class="chip" text-anchor="middle">{texto}</text>'
         )
         x += largura + 10
 
@@ -94,7 +94,7 @@ def banner(t: dict) -> str:
     .prompt {{ font: 500 15px {MONO}; fill: {t['ciano']}; }}
     .cursor {{ fill: {t['ciano']}; animation: pisca 1.1s steps(1) infinite; }}
     .no {{ font: 600 14px {SANS}; fill: {t['tinta2']}; }}
-    .chip {{ font: 600 13px {MONO}; fill: {t['tinta2']}; }}
+    .chip {{ font: 600 15px {MONO}; fill: {t['tinta2']}; }}
     .faixa {{ fill: none; stroke: {t['faixa']}; stroke-width: 2; stroke-dasharray: 10 12; animation: anda 1.2s linear infinite; }}
     .pulso {{ fill: none; stroke: {t['ciano']}; stroke-width: 2; opacity: 0; transform-box: fill-box; transform-origin: center; animation: pulso 3s ease-out infinite; }}
     @keyframes anda {{ to {{ stroke-dashoffset: -22; }} }}
@@ -149,7 +149,7 @@ LINGUAGENS = [
 
 
 def linguagens(t: dict) -> str:
-    largura, x0, y0, altura, vao = 1200, 0, 44, 18, 2
+    largura, x0, y0, altura, vao = 800, 0, 40, 16, 2
     util = largura - vao * (len(LINGUAGENS) - 1)
     segmentos, legenda = [], []
     x = x0
@@ -172,12 +172,12 @@ def linguagens(t: dict) -> str:
     for nome, pct, cor in LINGUAGENS:
         valor = f"{pct:.1f}%".replace(".", ",")
         legenda.append(
-            f'<rect x="{lx}" y="90" width="12" height="12" rx="3" fill="{t[cor]}"/>'
-            f'<text x="{lx + 20}" y="101" class="leg"><tspan class="leg-nome">{nome}</tspan> {valor}</text>'
+            f'<rect x="{lx}" y="80" width="12" height="12" rx="3" fill="{t[cor]}"/>'
+            f'<text x="{lx + 20}" y="91" class="leg"><tspan class="leg-nome">{nome}</tspan> {valor}</text>'
         )
-        lx += 20 + (len(nome) + 1 + len(valor)) * 7.4 + 30
+        lx += 20 + (len(nome) + 1 + len(valor)) * 7.6 + 24
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-labelledby="titulo desc">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-labelledby="titulo desc">
   <title id="titulo">Linguagens</title>
   <desc id="desc">{'; '.join(f'{n} {p:.1f}%' for n, p, _ in LINGUAGENS)} do codigo em 34 repositorios.</desc>
   <style>
@@ -186,8 +186,7 @@ def linguagens(t: dict) -> str:
     .leg {{ font: 400 14px {SANS}; fill: {t['tinta2']}; }}
     .leg-nome {{ font-weight: 600; fill: {t['tinta']}; }}
   </style>
-  <text x="0" y="22" class="tit">Linguagens</text>
-  <text x="92" y="22" class="sub">por volume de código em 34 repositórios (pessoais + Rota-7)</text>
+  <text x="0" y="22" class="tit">Linguagens <tspan class="sub" dx="6">por volume de código em 34 repositórios (pessoais + Rota-7)</tspan></text>
   {''.join(segmentos)}
   {''.join(legenda)}
 </svg>

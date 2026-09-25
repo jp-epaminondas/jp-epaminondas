@@ -23,7 +23,7 @@
     .prompt { font: 500 15px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #0891b2; }
     .cursor { fill: #0891b2; animation: pisca 1.1s steps(1) infinite; }
     .no { font: 600 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #475569; }
-    .chip { font: 600 13px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #475569; }
+    .chip { font: 600 15px ui-monospace, SFMono-Regular, Consolas, Menlo, monospace; fill: #475569; }
     .faixa { fill: none; stroke: #a9b8ca; stroke-width: 2; stroke-dasharray: 10 12; animation: anda 1.2s linear infinite; }
     .pulso { fill: none; stroke: #0891b2; stroke-width: 2; opacity: 0; transform-box: fill-box; transform-origin: center; animation: pulso 3s ease-out infinite; }
     @keyframes anda { to { stroke-dashoffset: -22; } }
@@ -78,7 +78,7 @@
     <text x="56" y="140" class="nome">João Epaminondas</text>
     <text x="56" y="178" class="cargo">Dev full stack · Rota7 Solutions</text>
     <text x="56" y="208" class="cargo" style="font-size:17px;fill:#64748b">Sistemas que movem a logística, do banco de dados ao caminhão.</text>
-    <rect x="56" y="236" width="160" height="28" rx="14" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="136" y="255" class="chip" text-anchor="middle">23 apps em produção</text><rect x="226.4" y="236" width="145" height="28" rx="14" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="299" y="255" class="chip" text-anchor="middle">1 biblioteca base</text><rect x="381.6" y="236" width="145" height="28" rx="14" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="454" y="255" class="chip" text-anchor="middle">PHP · JS · Python</text>
+    <rect x="56" y="234" width="187" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="150" y="255.5" class="chip" text-anchor="middle">23 apps em produção</text><rect x="253.1" y="234" width="169" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="338" y="255.5" class="chip" text-anchor="middle">1 biblioteca base</text><rect x="432.4" y="234" width="169" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="517" y="255.5" class="chip" text-anchor="middle">PHP · JS · Python</text>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="17.5" fill="none" stroke="rgba(11,18,32,0.10)"/>
 </svg>
