@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Linguagens</title>
+  <desc id="desc">PHP 60.6%; JavaScript 22.4%; CSS 7.4%; Python 4.9%; Outros 4.7% do codigo em 34 repositorios.</desc>
+  <style>
+    .tit { font: 600 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #0f172a; }
+    .sub { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #64748b; }
+    .leg { font: 400 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #475569; }
+    .leg-nome { font-weight: 600; fill: #0f172a; }
+  </style>
+  <text x="0" y="22" class="tit">Linguagens</text>
+  <text x="92" y="22" class="sub">por volume de código em 34 repositórios (pessoais + Rota-7)</text>
+  <rect x="0.0" y="44" width="722.4" height="18" rx="4" fill="#2a78d6"/><rect x="718.4" y="44" width="4" height="18" fill="#2a78d6"/><rect x="724.4" y="44" width="267.0" height="18" fill="#eb6834"/><rect x="993.4" y="44" width="88.2" height="18" fill="#1baf7a"/><rect x="1083.6" y="44" width="58.4" height="18" fill="#eda100"/><rect x="1144.0" y="44" width="56.0" height="18" rx="4" fill="#c3c2b7"/><rect x="1144.0" y="44" width="4" height="18" fill="#c3c2b7"/>
+  <rect x="0" y="90" width="12" height="12" rx="3" fill="#2a78d6"/><text x="20" y="101" class="leg"><tspan class="leg-nome">PHP</tspan> 60,6%</text><rect x="116.60000000000001" y="90" width="12" height="12" rx="3" fill="#eb6834"/><text x="136.60000000000002" y="101" class="leg"><tspan class="leg-nome">JavaScript</tspan> 22,4%</text><rect x="285.0" y="90" width="12" height="12" rx="3" fill="#1baf7a"/><text x="305.0" y="101" class="leg"><tspan class="leg-nome">CSS</tspan> 7,4%</text><rect x="394.2" y="90" width="12" height="12" rx="3" fill="#eda100"/><text x="414.2" y="101" class="leg"><tspan class="leg-nome">Python</tspan> 4,9%</text><rect x="525.6" y="90" width="12" height="12" rx="3" fill="#c3c2b7"/><text x="545.6" y="101" class="leg"><tspan class="leg-nome">Outros</tspan> 4,7%</text>
+</svg>
