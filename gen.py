@@ -71,7 +71,7 @@ def banner(t: dict) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="titulo desc">
   <title id="titulo">João Epaminondas</title>
-  <desc id="desc">Dev full stack na Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
+  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{t['bg1']}"/>
@@ -127,7 +127,7 @@ def banner(t: dict) -> str:
     <!-- texto -->
     <text x="56" y="78" class="prompt">~/rota7 $ whoami<tspan class="cursor"> ▍</tspan></text>
     <text x="56" y="140" class="nome">João Epaminondas</text>
-    <text x="56" y="178" class="cargo">Dev full stack · Rota7 Solutions</text>
+    <text x="56" y="178" class="cargo">CTO · Rota7 Solutions</text>
     <text x="56" y="208" class="cargo" style="font-size:17px;fill:{t['mudo']}">Sistemas que movem a logística, do banco de dados ao caminhão.</text>
     {''.join(chips_svg)}
   </g>

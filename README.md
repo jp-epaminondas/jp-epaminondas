@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="João Epaminondas — Dev full stack na Rota7 Solutions. Um caminhão percorre a rota entre os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital." src="assets/banner-light.svg" width="100%">
+  <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a rota entre os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital." src="assets/banner-light.svg" width="100%">
 </picture>
 
-Escrevo os sistemas internos da [Rota7 Solutions](https://www.rota7solutions.com.br), empresa de logística que roda
-em **23 aplicações próprias** sobre uma biblioteca PHP comum, um MySQL só e um servidor Debian que eu também
-administro. Do schema do banco ao deploy, passando pelos bots de WhatsApp.
+Sou CTO da [Rota7 Solutions](https://www.rota7solutions.com.br), empresa de logística que roda em
+**23 aplicações próprias** sobre uma biblioteca PHP comum, um MySQL só e um servidor Debian. Cuido da
+arquitetura e ponho a mão no código: do schema do banco ao deploy, passando pelos bots de WhatsApp.
 
 ### 🛣️ Na Rota7
 

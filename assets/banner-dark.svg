@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="titulo desc">
   <title id="titulo">João Epaminondas</title>
-  <desc id="desc">Dev full stack na Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
+  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Motor API, Tabela de Frete e Ponto Digital.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -76,7 +76,7 @@
     <!-- texto -->
     <text x="56" y="78" class="prompt">~/rota7 $ whoami<tspan class="cursor"> ▍</tspan></text>
     <text x="56" y="140" class="nome">João Epaminondas</text>
-    <text x="56" y="178" class="cargo">Dev full stack · Rota7 Solutions</text>
+    <text x="56" y="178" class="cargo">CTO · Rota7 Solutions</text>
     <text x="56" y="208" class="cargo" style="font-size:17px;fill:#7d8aa0">Sistemas que movem a logística, do banco de dados ao caminhão.</text>
     <rect x="56" y="234" width="187" height="32" rx="16" fill="rgba(34,211,238,0.10)" stroke="rgba(34,211,238,0.35)"/><text x="150" y="255.5" class="chip" text-anchor="middle">23 apps em produção</text><rect x="253.1" y="234" width="169" height="32" rx="16" fill="rgba(34,211,238,0.10)" stroke="rgba(34,211,238,0.35)"/><text x="338" y="255.5" class="chip" text-anchor="middle">1 biblioteca base</text><rect x="432.4" y="234" width="169" height="32" rx="16" fill="rgba(34,211,238,0.10)" stroke="rgba(34,211,238,0.35)"/><text x="517" y="255.5" class="chip" text-anchor="middle">PHP · JS · Python</text>
   </g>
