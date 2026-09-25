@@ -49,6 +49,6 @@ ao financeiro.
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/linguagens-dark.a9a0a173.svg">
-  <img alt="Linguagens por volume de código em 34 repositórios: PHP 60,6%, JavaScript 22,4%, CSS 7,4%, Python 4,9%, outros 4,7%." src="assets/linguagens-light.955bac1a.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linguagens-dark.01c3f117.svg">
+  <img alt="Linguagens por volume de código em 34 repositórios: PHP 60,6%, JavaScript 22,4%, CSS 7,4%, Python 4,9%, TypeScript 2,4%, outros 2,2%." src="assets/linguagens-light.700ab56d.svg" width="100%">
 </picture>

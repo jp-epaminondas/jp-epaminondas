@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Linguagens</title>
+  <desc id="desc">PHP 60.6%; JavaScript 22.4%; CSS 7.4%; Python 4.9%; TypeScript 2.4%; Outros 2.2% do codigo em 34 repositorios.</desc>
+  <style>
+    .tit { font: 600 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #f0f4fa; }
+    .sub { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #7d8aa0; }
+    .leg { font: 400 14px 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; fill: #aeb9c9; }
+    .leg-nome { font-weight: 600; fill: #f0f4fa; }
+  </style>
+  <text x="0" y="22" class="tit">Linguagens <tspan class="sub" dx="6">por volume de código em 34 repositórios (pessoais + Rota-7)</tspan></text>
+  <rect x="0.0" y="40" width="478.7" height="16" rx="4" fill="#3987e5"/><rect x="474.7" y="40" width="4" height="16" fill="#3987e5"/><rect x="480.7" y="40" width="177.0" height="16" fill="#d95926"/><rect x="659.7" y="40" width="58.5" height="16" fill="#199e70"/><rect x="720.2" y="40" width="38.7" height="16" fill="#c98500"/><rect x="760.9" y="40" width="19.0" height="16" fill="#d55181"/><rect x="781.8" y="40" width="17.4" height="16" rx="4" fill="#4a4f5a"/><rect x="781.8" y="40" width="4" height="16" fill="#4a4f5a"/>
+  <rect x="0" y="80" width="12" height="12" rx="3" fill="#3987e5"/><text x="20" y="91" class="leg"><tspan class="leg-nome">PHP</tspan> 60,6%</text><rect x="106.39999999999999" y="80" width="12" height="12" rx="3" fill="#d95926"/><text x="126.39999999999999" y="91" class="leg"><tspan class="leg-nome">JavaScript</tspan> 22,4%</text><rect x="266.0" y="80" width="12" height="12" rx="3" fill="#199e70"/><text x="286.0" y="91" class="leg"><tspan class="leg-nome">CSS</tspan> 7,4%</text><rect x="364.8" y="80" width="12" height="12" rx="3" fill="#c98500"/><text x="384.8" y="91" class="leg"><tspan class="leg-nome">Python</tspan> 4,9%</text><rect x="486.4" y="80" width="12" height="12" rx="3" fill="#d55181"/><text x="506.4" y="91" class="leg"><tspan class="leg-nome">TypeScript</tspan> 2,4%</text><rect x="638.4" y="80" width="12" height="12" rx="3" fill="#4a4f5a"/><text x="658.4" y="91" class="leg"><tspan class="leg-nome">Outros</tspan> 2,2%</text>
+</svg>

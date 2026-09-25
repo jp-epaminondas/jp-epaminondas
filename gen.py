@@ -16,7 +16,7 @@ TEMAS = {
         "caminhao": "#fbbf24", "cabine": "#fde68a", "vidro": "#0b1220",
         "chip": "rgba(34,211,238,0.10)", "chipborda": "rgba(34,211,238,0.35)",
         # barra de linguagens (paleta validada, passos do escuro)
-        "s1": "#3987e5", "s2": "#d95926", "s3": "#199e70", "s4": "#c98500", "outros": "#4a4f5a",
+        "s1": "#3987e5", "s2": "#d95926", "s3": "#199e70", "s4": "#c98500", "s5": "#d55181", "outros": "#4a4f5a",
     },
     "light": {
         "bg1": "#f7f9fc", "bg2": "#eef3f9", "borda": "rgba(11,18,32,0.10)",
@@ -24,7 +24,7 @@ TEMAS = {
         "ciano": "#0891b2", "estrada": "#dbe4ee", "faixa": "#a9b8ca",
         "caminhao": "#d97706", "cabine": "#f59e0b", "vidro": "#fff7e6",
         "chip": "rgba(8,145,178,0.08)", "chipborda": "rgba(8,145,178,0.35)",
-        "s1": "#2a78d6", "s2": "#eb6834", "s3": "#1baf7a", "s4": "#eda100", "outros": "#c3c2b7",
+        "s1": "#2a78d6", "s2": "#eb6834", "s3": "#1baf7a", "s4": "#eda100", "s5": "#e87ba4", "outros": "#c3c2b7",
     },
 }
 
@@ -140,14 +140,15 @@ def banner(t: dict) -> str:
 
 
 # Linguagens dos 34 repositorios proprios e da Rota-7, por volume de codigo
-# (API /languages do GitHub, 25/09/2026). Outros = TypeScript, Dart, Hack,
-# HTML e o resto abaixo de 1%.
+# (API /languages do GitHub, 25/09/2026). Outros = Dart, Hack, HTML e o resto
+# abaixo de 1%. Node nao entra: e runtime, o codigo dele ja conta como JavaScript.
 LINGUAGENS = [
     ("PHP", 60.6, "s1"),
     ("JavaScript", 22.4, "s2"),
     ("CSS", 7.4, "s3"),
     ("Python", 4.9, "s4"),
-    ("Outros", 4.7, "outros"),
+    ("TypeScript", 2.4, "s5"),
+    ("Outros", 2.2, "outros"),
 ]
 
 
@@ -178,7 +179,7 @@ def linguagens(t: dict) -> str:
             f'<rect x="{lx}" y="80" width="12" height="12" rx="3" fill="{t[cor]}"/>'
             f'<text x="{lx + 20}" y="91" class="leg"><tspan class="leg-nome">{nome}</tspan> {valor}</text>'
         )
-        lx += 20 + (len(nome) + 1 + len(valor)) * 7.6 + 24
+        lx += 20 + (len(nome) + 1 + len(valor)) * 7.6 + 18
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 110" width="800" height="110" role="img" aria-labelledby="titulo desc">
   <title id="titulo">Linguagens</title>
