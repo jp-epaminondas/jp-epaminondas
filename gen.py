@@ -26,14 +26,15 @@ TEMAS = {
     },
 }
 
-# Rota: curva suave que passa pelos sistemas. Os nos ficam nos extremos das
+# Rota: a jornada de uma carga, etapa por etapa, cada uma automatizada por um
+# sistema (Automacao Smart, WA-Responder + Leitor Doc Gov, Emissor Fiscal). Os nos ficam nos extremos das
 # curvas, entao estao exatamente sobre o caminho.
 NOS = [
-    (640, 214, "Base", "abaixo"),
-    (760, 124, "Etapas", "acima"),
-    (880, 214, "Automação Smart", "abaixo"),
-    (1000, 124, "Leitor Doc Gov", "acima"),
-    (1120, 214, "WhatsApp", "abaixo"),
+    (640, 214, "Oferta", "abaixo"),
+    (760, 124, "Aceite", "acima"),
+    (880, 214, "Documentos", "abaixo"),
+    (1000, 124, "CT-e", "acima"),
+    (1120, 214, "Entrega", "abaixo"),
 ]
 
 
@@ -71,7 +72,7 @@ def banner(t: dict) -> str:
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="titulo desc">
   <title id="titulo">João Epaminondas</title>
-  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre uma rota que liga os sistemas Base, Etapas, Automação Smart, Leitor Doc Gov e WhatsApp.</desc>
+  <desc id="desc">CTO da Rota7 Solutions. Um caminhao percorre a jornada de uma carga: oferta, aceite, documentos, CT-e e entrega.</desc>
   <defs>
     <linearGradient id="fundo" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{t['bg1']}"/>
