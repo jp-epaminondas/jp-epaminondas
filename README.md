@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.fc976107.svg">
-  <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a jornada de uma carga: oferta, aceite, documentos, CT-e e entrega." src="assets/banner-light.28bc6928.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.40e2af27.svg">
+  <img alt="João Epaminondas — CTO da Rota7 Solutions. Um caminhão percorre a jornada de uma carga: oferta, aceite, documentos, CT-e e entrega." src="assets/banner-light.2e5eefd7.svg" width="100%">
 </picture>
 
 CTO da [Rota7 Solutions](https://www.rota7solutions.com.br). Lidero o time de tecnologia e continuo com a mão

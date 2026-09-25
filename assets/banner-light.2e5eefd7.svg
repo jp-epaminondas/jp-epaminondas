@@ -77,7 +77,7 @@
     <text x="56" y="78" class="prompt">~/rota7 $ whoami<tspan class="cursor"> ▍</tspan></text>
     <text x="56" y="140" class="nome">João Epaminondas</text>
     <text x="56" y="178" class="cargo">CTO · Rota7 Solutions</text>
-    <text x="56" y="208" class="cargo" style="font-size:17px;fill:#64748b">Sistemas que movem a logística, do banco de dados ao caminhão.</text>
+    <text x="56" y="208" class="cargo" style="font-size:17px;fill:#64748b">Tecnologia que coloca a carga na estrada.</text>
     <rect x="56" y="234" width="187" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="150" y="255.5" class="chip" text-anchor="middle">23 apps em produção</text><rect x="253.1" y="234" width="169" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="338" y="255.5" class="chip" text-anchor="middle">1 biblioteca base</text><rect x="432.4" y="234" width="169" height="32" rx="16" fill="rgba(8,145,178,0.08)" stroke="rgba(8,145,178,0.35)"/><text x="517" y="255.5" class="chip" text-anchor="middle">PHP · JS · Python</text>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="17.5" fill="none" stroke="rgba(11,18,32,0.10)"/>

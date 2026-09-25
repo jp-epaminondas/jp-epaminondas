@@ -131,7 +131,7 @@ def banner(t: dict) -> str:
     <text x="56" y="78" class="prompt">~/rota7 $ whoami<tspan class="cursor"> ▍</tspan></text>
     <text x="56" y="140" class="nome">João Epaminondas</text>
     <text x="56" y="178" class="cargo">CTO · Rota7 Solutions</text>
-    <text x="56" y="208" class="cargo" style="font-size:17px;fill:{t['mudo']}">Sistemas que movem a logística, do banco de dados ao caminhão.</text>
+    <text x="56" y="208" class="cargo" style="font-size:17px;fill:{t['mudo']}">Tecnologia que coloca a carga na estrada.</text>
     {''.join(chips_svg)}
   </g>
   <rect x="0.5" y="0.5" width="1199" height="299" rx="17.5" fill="none" stroke="{t['borda']}"/>
