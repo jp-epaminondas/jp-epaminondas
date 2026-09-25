@@ -28,7 +28,6 @@ ao financeiro.
 
 | Projeto | |
 |---|---|
-| **GoRush** | Jogo cooperativo multiplayer no estilo Overcooked, ambientado num centro de distribuição. TypeScript, Three.js e WebSocket. |
 | **Cozinha Frenética** | Protótipo 3D isométrico de cozinha cooperativa, com cozinha gerada por seed. |
 | **Codex Account Switcher** | Extensão do VS Code que alterna contas do Codex CLI, com cofre criptografado sincronizado entre máquinas. |
 | **[Fiscal de Procrastinação](https://github.com/jp-epaminondas/FISCAL-PROCRASTINACAO)** | Extensão do Chrome que bloqueia os sites que roubam seu foco, com ciclos de bloqueio e pausa. |
